@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://kilometerskang.github.io",
+  "homepage": "https://kilometerskang.github.io/me",
   "private": true,
   "dependencies": {
     "framer-motion": "^1.6.17",
