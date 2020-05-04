@@ -1,0 +1,156 @@
+@import 'variables';
+
+.App {
+    text-align: center;
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", "Ebrima", "Microsoft New Tai Lue", -apple-system, BlinkMacSystemFont,
+        "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    // background-color: $secondary-color;
+}
+
+.dope-bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-image: 
+    linear-gradient(135deg, $secondary-color 45%, transparent 0%),
+    linear-gradient(
+    $secondary-color-light,
+    $secondary-color-light, 8px,
+    $secondary-color, 8px,
+    $secondary-color
+  );
+  background-size: 100%, 100% 16px;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.p-txt {
+    font-size: 1.2rem;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    overflow: hidden;
+    background-color: $primary-color-light;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+}
+
+.nav-item {
+    padding: 2rem;
+    height: 10rem;
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.nav-item:hover {
+    background-color: $primary-color;
+    transition-duration: 0.4s;
+}
+
+.active {
+    background-color: $primary-color;
+    transition-duration: 0.4s;
+}
+
+#title {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    background-color: $primary-color-hover;
+}
+
+h1 {
+    color: white;
+}
+
+#name-link {
+    color: white;
+    text-decoration: none;
+    padding: 12px 40px;
+    font-size: 2rem;
+}
+
+.container {
+    padding: 50px;
+}
+
+.content {
+    margin: auto;
+    width: 70%;
+}
+
+.txt-accent {
+    color: $primary-color-hover;
+}
+
+#top-banner {
+    background-color: $primary-color;
+    float: right;
+}
+
+button {
+    border: 0;
+    transition-duration: 0.4s;
+    padding: 5px 12px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.units-btn {
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: $secondary-color;
+    border-bottom-left-radius: 6px;
+}
+
+.units-btn:hover {
+    background: $secondary-color-hover;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#reset-btn {
+    background-color: $base-color-hover;
+    border-bottom-left-radius: 0px;
+}
+
+#reset-btn:hover {
+    background: $base-color;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+footer {
+    font-size: .85rem;
+    color: white;
+    background: $base-color;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.link {
+    color: $primary-color-hover;
+    text-decoration: none;
+}

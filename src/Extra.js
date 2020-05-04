@@ -1,12 +1,13 @@
 import React from "react";
-import './App.css';
  
 function Extra(props) {
   return (
-    <div id="mainbody">        
-      <body>
-        I enjoy making music. Find it <a href="http://smarturl.it/mileskang">here</a>.
-      </body>
+    <div className="container">     
+      <div className="content">
+        <p className="p-txt">
+          I enjoy making music. Find it <a className="link" href="http://smarturl.it/mileskang"><b>here</b></a>.
+        </p>
+      </div> 
     </div>
   )
 }

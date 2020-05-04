@@ -1,12 +1,13 @@
 import React from "react";
-import './App.css';
  
 function Resume(props) {
   return (
-    <div id="mainbody">        
-      <body>
-        Find my resume <a href="resume.pdf">here</a>.
-      </body>
+    <div className="container"> 
+      <div className="content">
+        <p className="p-txt">
+          Find my resume <a className="link" href="resume.pdf"><b>here</b></a>.
+        </p>
+      </div> 
     </div>
   )
 }

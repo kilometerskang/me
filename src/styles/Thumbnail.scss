@@ -1,3 +1,5 @@
+@import 'variables';
+
 .all-projects {
     display: flex; 
     flex-wrap: wrap; 
@@ -9,14 +11,14 @@
 .project {
     width: 140px;
     height: 140px;
-    background-color: rgb(119, 153, 228);
+    background-color: $primary-color;
     padding: 18px;
     transition-duration: 0.4s;
     border-radius: 18px;
 }
 
 .project:hover {
-    background-color: rgb(101, 138, 218);
+    background-color: $primary-color-hover;
     transition-duration: 0.4s;
     transform: scale(1.03);
 }

@@ -1,18 +1,18 @@
 import React from 'react';
 
-import { HashRouter, Route, Link } from 'react-router-dom'; 
+import { BrowserRouter, Route, Link, Redirect } from 'react-router-dom';
+import Home from './Home.js';
 import Projects from './Projects.js'; 
 import Resume from './Resume.js';
 import Extra from './Extra.js';
 import { NavLink } from 'react-router-dom';
-import './App.css';
 
 class App extends React.Component {
   state = {
     name: "Miles",
     btn: "I'm Feeling Scientific",
-    prev: "",
-    prevPrev: ""
+    prev: null,
+    prev_prev: null
   }
 
   handleUnitsBtn = () =>  {
@@ -21,8 +21,8 @@ class App extends React.Component {
     do {
       var x = Math.floor(Math.random() * 11);
     }
-    while (units[x] === this.prev || units[x] === this.prevPrev);
-    this.prevPrev = this.prev;
+    while (units[x] === this.prev || units[x] === this.prev_prev);
+    this.prev_prev = this.prev;
     this.prev = units[x];
     this.setState({name: units[x]});
   };
@@ -33,7 +33,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
+        <Route path="/" render={() => (
+          <Redirect to="/home"/>
+        )}/>
         <div className="App">
           <div id="top-banner">
             <button onClick={this.handleUnitsBtn} className="units-btn">
@@ -45,29 +48,29 @@ class App extends React.Component {
           </div>
 
           <div id="title">
-            <h1><Link id="name-link" to="/">{this.state.name} Kang</Link></h1>
+            <h1><Link id="name-link" to="/home">{this.state.name} Kang</Link></h1>
           </div>
-          <div>
-              <ul className="nav-bar">
-                <li><NavLink activeClassName="active" to="/projects">Projects</NavLink></li>
-                <li><NavLink activeClassName="active" to="/resume">Resume</NavLink></li>
-                <li><NavLink activeClassName="active" to="/extra">Extra</NavLink></li>
-              </ul>
-          </div>
+          <ul className="nav-bar">
+            <li><NavLink className="nav-item" activeClassName="active" to="/home">Home</NavLink></li>
+            <li><NavLink className="nav-item" activeClassName="active" to="/projects">Projects</NavLink></li>
+            <li><NavLink className="nav-item" activeClassName="active" to="/resume">Resume</NavLink></li>
+            <li><NavLink className="nav-item" activeClassName="active" to="/extra">Extra</NavLink></li>
+          </ul>
 
-          <body>
-            <Route exact path="/projects" component={Projects} />
+          <div className="dope-bg">
+            <Route path="/home" component={Home} />
+            <Route path="/projects" component={Projects} />
             <Route path="/resume" component={Resume} />
             <Route path="/extra" component={Extra} />
-          </body>
+          </div>
 
           <footer>
             <p>Contact: milesjkang@gmail.com</p>
-            <p><a className="footer-link" href="https://github.com/kilometerskang/me">
+            <p><a className="link" href="https://github.com/kilometerskang/me">
             Click here for my code for this website.</a></p>
           </footer>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
