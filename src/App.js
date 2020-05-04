@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter, Route, Link, Redirect } from 'react-router-dom';
+import { HashRouter, Route, Link, Redirect } from 'react-router-dom';
 import Home from './Home.js';
 import Projects from './Projects.js'; 
 import Resume from './Resume.js';
@@ -33,7 +33,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Route path="/" render={() => (
           <Redirect to="/home"/>
         )}/>
@@ -70,7 +70,7 @@ class App extends React.Component {
             Click here for my code for this website.</a></p>
           </footer>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
