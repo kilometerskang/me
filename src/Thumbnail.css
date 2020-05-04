@@ -1,0 +1,32 @@
+.all-projects {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: stretch;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.project {
+    width: 140px;
+    height: 140px;
+    background-color: rgb(119, 153, 228);
+    padding: 18px;
+    transition-duration: 0.4s;
+    border-radius: 18px;
+}
+
+.project:hover {
+    background-color: rgb(101, 138, 218);
+    transition-duration: 0.4s;
+    transform: scale(1.03);
+}
+
+.project-image {
+    padding: 6px;
+}
+
+.project-link {
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
