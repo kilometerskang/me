@@ -27,10 +27,36 @@ body {
     $secondary-color, 8px,
     $secondary-color
   );
-  background-size: 100%, 100% 16px;
+  background-size: 130%, 100% 16px;
+  z-index: -1;
 }
 
-p {
+// change icon size dynamically with viewport size.
+@media screen and (min-width: 751px) {
+    .content {
+        margin: auto;
+        width: 70%;
+    }
+}
+@media screen and (min-width: 451px) and (max-width: 750px) {
+    .content {
+        margin: auto;
+        width: 85%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .content {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+.container {
+    padding: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.p-txt-small {
     font-size: 0.9rem;
 }
 
@@ -38,72 +64,8 @@ p {
     font-size: 1.2rem;
 }
 
-.nav-bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 1rem;
-    overflow: hidden;
-    background-color: $primary-color-light;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-
-    position: sticky;
-    top: 0;
-}
-
-.nav-item {
-    padding: 2rem;
-    height: 10rem;
-    transition-duration: 0.4s;
-    color: white;
-    text-decoration: none;
-    transition-duration: 0.4s;
-}
-
-.nav-item:hover {
-    background-color: $primary-color;
-    transition-duration: 0.4s;
-}
-
-.active {
-    background-color: $primary-color;
-    transition-duration: 0.4s;
-}
-
-#title {
-    padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
-    background-color: $primary-color-hover;
-}
-
-h1 {
-    color: white;
-}
-
-#name-link {
-    color: white;
-    text-decoration: none;
-    padding: 12px 40px;
-    font-size: 2rem;
-}
-
-.container {
-    padding: 50px;
-}
-
-.content {
-    margin: auto;
-    width: 70%;
-}
-
 .txt-accent {
     color: $primary-color-hover;
-}
-
-#top-banner {
-    background-color: $primary-color;
-    float: right;
 }
 
 button {
@@ -114,40 +76,6 @@ button {
 
 button:focus {
     outline: 0;
-}
-
-.units-btn {
-    color: white;
-    font-size: 0.9rem;
-    text-align: center;
-    background-color: $secondary-color;
-    border-bottom-left-radius: 6px;
-}
-
-.units-btn:hover {
-    background: $secondary-color-hover;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-
-#reset-btn {
-    background-color: $base-color-hover;
-    border-bottom-left-radius: 0px;
-}
-
-#reset-btn:hover {
-    background: $base-color;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-
-footer {
-    font-size: .85rem;
-    color: white;
-    background: $base-color;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 .link {

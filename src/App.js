@@ -1,11 +1,10 @@
 import React from 'react';
-
-import { HashRouter, Route, Link, Redirect } from 'react-router-dom';
+import { HashRouter, Route, Link, Redirect, NavLink } from 'react-router-dom';
 import Home from './Home.js';
 import Projects from './Projects.js'; 
 import Resume from './Resume.js';
 import Extra from './Extra.js';
-import { NavLink } from 'react-router-dom';
+import DisappointingPage from './DisappointingPage.js';
 
 class App extends React.Component {
   state = {
@@ -37,6 +36,9 @@ class App extends React.Component {
         <Route path="/" render={() => (
           <Redirect to="/home"/>
         )}/>
+        
+        <div className="dope-bg"></div>
+
         <div className="App">
           <div id="top-banner">
             <button onClick={this.handleUnitsBtn} className="units-btn">
@@ -57,16 +59,17 @@ class App extends React.Component {
             <li><NavLink className="nav-item" activeClassName="active" to="/extra">Extra</NavLink></li>
           </ul>
 
-          <div className="dope-bg">
+          <div>
             <Route path="/home" component={Home} />
             <Route path="/projects" component={Projects} />
             <Route path="/resume" component={Resume} />
             <Route path="/extra" component={Extra} />
+            <Route path="/disappointing_page" component={DisappointingPage} />
           </div>
 
           <footer>
-            <p>Contact: milesjkang@gmail.com</p>
-            <p><a className="link" href="https://github.com/kilometerskang/me">
+            <p className="p-txt-small">Contact: milesjkang@gmail.com</p>
+            <p className="p-txt-small"><a className="link" href="https://github.com/kilometerskang/me">
             Click here for my code for this website.</a></p>
           </footer>
         </div>

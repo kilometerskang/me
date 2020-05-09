@@ -1,6 +1,7 @@
 @import 'variables';
 
 .all-projects {
+    padding-top: 10px;
     display: flex; 
     flex-wrap: wrap; 
     align-items: stretch;
@@ -31,4 +32,22 @@
     padding-bottom: 5px;
     color: white;
     text-decoration: none;
+}
+
+.back-btn {
+    position: absolute;
+    bottom: 20%;
+    color: white;
+    background-color: $primary-color;
+    text-decoration: none;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    border-radius: 0.2rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: $primary-color-hover;
+    transition-duration: 0.4s;
+    transform: scale(1.03);
 }

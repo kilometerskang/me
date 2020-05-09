@@ -1,0 +1,86 @@
+@import 'variables';
+
+#top-banner {
+    background-color: $primary-color-hover;
+    float: right;
+}
+
+#title {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    background-color: $primary-color-hover;
+}
+
+#name-link {
+    color: white;
+    text-decoration: none;
+    padding: 12px 40px;
+    font-size: 2rem;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    overflow: hidden;
+    background-color: $primary-color-light;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+}
+
+.nav-item {
+    padding: 2rem;
+    height: 10rem;
+    transition-duration: 0.4s;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.nav-item:hover {
+    background-color: $primary-color;
+    transition-duration: 0.4s;
+}
+
+.active {
+    background-color: $primary-color;
+    transition-duration: 0.4s;
+}
+
+.units-btn {
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: $secondary-color;
+    border-bottom-left-radius: 6px;
+}
+
+.units-btn:hover {
+    background: $secondary-color-hover;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#reset-btn {
+    background-color: $base-color-hover;
+    border-bottom-left-radius: 0px;
+}
+
+#reset-btn:hover {
+    background: $base-color;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+footer {
+    font-size: .85rem;
+    color: white;
+    background: $base-color;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

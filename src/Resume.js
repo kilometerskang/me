@@ -7,7 +7,7 @@ function Resume(props) {
         <p className="p-txt">
           Find my resume <a className="link" href="resume.pdf"><b>here</b></a>.
         </p>
-      </div> 
+      </div>
     </div>
   )
 }

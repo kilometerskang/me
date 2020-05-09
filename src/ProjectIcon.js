@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './styles/Thumbnail.css';
+import './styles/ProjectIcon.css';
  
-function Thumbnail(props) {
+function ProjectIcon(props) {
   return (
     <div className="all-projects">
       <span className="project">
@@ -18,4 +18,4 @@ function Thumbnail(props) {
   );
 }
  
-export default Thumbnail;
+export default ProjectIcon;
