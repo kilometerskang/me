@@ -18,6 +18,12 @@
     font-size: 2rem;
 }
 
+@media screen and (max-width: 550px) {
+    #name-link {
+        font-size: 1.8rem;
+    }
+}
+
 .nav-bar {
     list-style-type: none;
     margin: 0;
@@ -39,6 +45,13 @@
     color: white;
     text-decoration: none;
     transition-duration: 0.4s;
+}
+
+@media screen and (max-width: 550px) {
+    .nav-item {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
 }
 
 .nav-item:hover {
@@ -82,5 +95,6 @@ footer {
     background: $base-color;
     position: fixed;
     bottom: 0;
+    height: 5rem;
     width: 100%;
 }
