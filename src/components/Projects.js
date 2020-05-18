@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectIcon from './ProjectIcon.js';
+import ProjectIcon from './ProjectIcon';
  
 function Projects(props) {
   return (

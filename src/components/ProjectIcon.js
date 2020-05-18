@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './styles/ProjectIcon.css';
+import '../styles/ProjectIcon.scss';
  
 function ProjectIcon(props) {
   return (

@@ -1,10 +1,11 @@
 import React from 'react';
 import { HashRouter, Route, Link, Redirect, NavLink } from 'react-router-dom';
-import Home from './Home.js';
-import Projects from './Projects.js'; 
-import Resume from './Resume.js';
-import Extra from './Extra.js';
-import DisappointingPage from './DisappointingPage.js';
+import Home from './Home';
+import Projects from './Projects'; 
+import Resume from './Resume';
+import Extra from './Extra';
+import DisappointingPage from './DisappointingPage';
+import '../styles/nav.scss';
 
 class App extends React.Component {
   state = {
