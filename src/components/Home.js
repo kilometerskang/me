@@ -14,7 +14,7 @@ function Projects(props) {
             in one place, and hopefully I will keep it up to date.
         </p>
         <p className="p-txt txt-accent">
-            <b>Last updated: 05.10.2020.</b>
+            <b>Last updated: 07.11.2020.</b>
         </p>
       </div>
     </div>

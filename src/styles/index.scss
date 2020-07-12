@@ -34,7 +34,7 @@ body {
 @media screen and (min-width: 1001px) {
     .content {
         margin: auto;
-        width: 70%;
+        width: 67%;
     }
 }
 @media screen and (min-width: 751px) and (max-width: 1000px) {
@@ -53,6 +53,11 @@ body {
 .container {
     padding: 2.5rem;
     margin-bottom: 5rem;
+}
+
+.small-container {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .p-txt-small {

@@ -1,0 +1,44 @@
+@import 'variables';
+
+.extra-gallery {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.extra-art {
+    padding: 8px;
+}
+
+.speech-bubble {
+	position: relative;
+	background: $primary-color-light;
+    border-radius: .75rem;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    transition-duration: 0.4s;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-bottom-color: $primary-color-light;
+	border-top: 0;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+
+.speech-bubble:hover {
+    background: $primary-color;
+    transition-duration: 0.4s;
+}
