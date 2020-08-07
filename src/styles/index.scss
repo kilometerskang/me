@@ -36,17 +36,35 @@ body {
         margin: auto;
         width: 67%;
     }
+    .p-txt {
+        font-size: 1.2rem;
+    }
+    .p-txt-small {
+        font-size: 0.9rem;
+    }
 }
 @media screen and (min-width: 751px) and (max-width: 1000px) {
     .content {
         margin: auto;
         width: 85%;
     }
+    .p-txt {
+        font-size: 1.1rem;
+    }
+    .p-txt-small {
+        font-size: 0.9rem;
+    }
 }
 @media screen and (max-width: 750px) {
     .content {
         margin: auto;
         width: 90%;
+    }
+    .p-txt {
+        font-size: 1rem;
+    }
+    .p-txt-small {
+        font-size: 0.8rem;
     }
 }
 
@@ -58,14 +76,6 @@ body {
 .small-container {
     padding: 1rem;
     margin-bottom: 1.5rem;
-}
-
-.p-txt-small {
-    font-size: 0.9rem;
-}
-
-.p-txt {
-    font-size: 1.2rem;
 }
 
 .txt-accent {

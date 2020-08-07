@@ -11,16 +11,44 @@
 }
 
 .extra-art {
-    padding: 8px;
+    padding: 3px;
+}
+
+@media screen and (min-width: 1121px) {
+    .album-art {
+        width: 122px;
+        height: 122px;
+    }
+    .bubble-txt {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 851px) and (max-width: 1120px) {
+    .album-art {
+        width: 105px;
+        height: 105px;
+    }
+    .bubble-txt {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 850px) {
+    .album-art {
+        width: 87px;
+        height: 87px;
+    }
+    .bubble-txt {
+        font-size: 0.9rem;
+    }
 }
 
 .speech-bubble {
 	position: relative;
 	background: $primary-color-light;
-    border-radius: .75rem;
+    border-radius: .6rem;
     color: white;
     text-decoration: none;
-    padding: 10px 20px 10px 20px;
+    padding: .5rem .9rem .5rem .9rem;
     transition-duration: 0.4s;
 }
 

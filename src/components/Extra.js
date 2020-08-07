@@ -12,21 +12,49 @@ function Extra() {
         </p>
         <ul className="extra-gallery">
           <li className="extra-art">
-            <img src="artwork/ice-cream-lover.jpg" width={130} height={130} mode='fit'/>
+            <img
+              src={require("../artwork/ice-cream-lover.jpg")}
+              alt=""
+              className="album-art"
+              mode='fit'
+            />
           </li>
           <li className="extra-art">
-            <img src="artwork/acacia.png" width={130} height={130} mode='fit'/>
+            <img
+              src={require("../artwork/acacia.png")}
+              alt=""
+              className="album-art"
+              mode='fit'
+            />
           </li>
           <li className="extra-art">
-            <img src="artwork/danny-boy.png" width={130} height={130} mode='fit'/>
+            <img
+              src={require("../artwork/danny-boy.png")}
+              alt=""
+              className="album-art"
+              mode='fit'
+            />
           </li>
           <li className="extra-art">
-            <img src="artwork/wav.jpeg" width={130} height={130} mode='fit'/>
+            <img
+              src={require("../artwork/wav.jpeg")}
+              alt=""
+              className="album-art"
+              mode='fit'
+            />
+          </li>
+          <li className="extra-art">
+            <img
+              src={require("../artwork/hobo.jpg")}
+              alt=""
+              className="album-art"
+              mode='fit'
+            />
           </li>
         </ul>
         <div className="small-container">
-          <a className="speech-bubble p-txt" href="http://smarturl.it/mileskang">
-            Click to stream my music!
+          <a className="speech-bubble bubble-txt" href="http://smarturl.it/mileskang">
+            <i>Stream my music here!</i>
           </a>
         </div>
         <p className="p-txt">
@@ -36,25 +64,63 @@ function Extra() {
         </p>
         <ul className="extra-gallery">
           <li className="extra-art">
-            <img src="artwork/drawings/bridge.jpg" width={138} height={190} mode='fit'/>
+            <img
+              src={require("../artwork/drawings/bridge.jpg")}
+              alt=""
+              width={138}
+              height={190}
+              mode='fit'
+            />
           </li>
           <li className="extra-art">
-            <img src="artwork/drawings/europe.jpg" width={170} height={170} mode='fit'/>
+            <img
+              src={require("../artwork/drawings/europe.jpg")}
+              alt="" width={170} height={170} mode='fit'/>
           </li>
           <li className="extra-art">
-            <img src="artwork/drawings/swan.jpg" width={185} height={145} mode='fit'/>
+            <img
+              src={require("../artwork/drawings/swan.jpg")}
+              alt=""
+              width={185}
+              height={145}
+              mode='fit'
+            />
           </li>
           <li className="extra-art">
-            <img src="artwork/drawings/plastic.jpg" width={138} height={190} mode='fit'/>
+            <img
+              src={require("../artwork/drawings/plastic.jpg")}
+              alt=""
+              width={138}
+              height={190}
+              mode='fit'
+            />
           </li>
           <li className="extra-art">
-            <img src="artwork/drawings/snowy.jpg" width={185} height={145} mode='fit'/>
+            <img
+              src={require("../artwork/drawings/snowy.jpg")}
+              alt=""
+              width={185}
+              height={145}
+              mode='fit'
+            />
           </li>
           <li className="extra-art">
-            <img src="artwork/drawings/ship.jpg" width={138} height={190} mode='fit'/>
+            <img
+              src={require("../artwork/drawings/ship.jpg")}
+              alt=""
+              width={138}
+              height={190}
+              mode='fit'
+            />
           </li>
           <li className="extra-art">
-            <img src="artwork/drawings/river.jpg" width={185} height={145} mode='fit'/>
+            <img
+              src={require("../artwork/drawings/river.jpg")}
+              alt=""
+              width={185}
+              height={145}
+              mode='fit'
+            />
           </li>
         </ul>
       </div> 
