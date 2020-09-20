@@ -8,7 +8,8 @@ function Extra() {
         <p className="p-txt">
           My biggest hobby and side gig is music <span role="img" aria-label="guitar">🎸</span>.
           Jamming with friends, exploring jazz theory, and composing pieces are pretty much my
-          entire life outside of school.
+          entire life outside of school. I do my own mixing and mastering, and release my music
+          on Spotify, Apple Music, SoundCloud, etc. (link below)
         </p>
         <ul className="extra-gallery">
           <li className="extra-art">
