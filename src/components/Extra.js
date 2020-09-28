@@ -64,6 +64,15 @@ function Extra() {
           remember, but I am no professional <span role="img" aria-label="funny-face">😬</span>.
         </p>
         <ul className="extra-gallery">
+        <li className="extra-art">
+            <img
+              src={require("../artwork/drawings/field.jpg")}
+              alt=""
+              width={170}
+              height={170}
+              mode='fit'
+            />
+          </li>
           <li className="extra-art">
             <img
               src={require("../artwork/drawings/bridge.jpg")}
@@ -76,7 +85,11 @@ function Extra() {
           <li className="extra-art">
             <img
               src={require("../artwork/drawings/europe.jpg")}
-              alt="" width={170} height={170} mode='fit'/>
+              alt=""
+              width={170}
+              height={170}
+              mode='fit'
+            />
           </li>
           <li className="extra-art">
             <img
@@ -120,6 +133,15 @@ function Extra() {
               alt=""
               width={185}
               height={145}
+              mode='fit'
+            />
+          </li>
+          <li className="extra-art">
+            <img
+              src={require("../artwork/drawings/parking.JPG")}
+              alt=""
+              width={170}
+              height={170}
               mode='fit'
             />
           </li>

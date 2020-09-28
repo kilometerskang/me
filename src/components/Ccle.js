@@ -17,8 +17,11 @@ function Ccle(props) {
             </b>
           </a>,
           I learned a great deal about a couple different web stacks, as well as the <b>Agile</b> process.
-          The bulk of my internship was spent on building an LTI web application to integrate into
-          CCLE. This was done using the <b>MERN stack (MongoDB, Express.js, React.js, and Node.js)</b>.
+          While I did a reasonable amount of work on CCLE itself (patches/features primarily using <b>
+            PHP
+          </b> and <b>Docker</b>), the bulk of my internship was spent on building a new LTI web application
+          to integrate into CCLE. This was done using the <b>MERN stack (MongoDB, Express.js, React.js, and
+          Node.js)</b>.
         </p>
         <p className="p-txt">
           The application that I worked on is an LTI tool that retrieves the library reserves of a course
@@ -42,8 +45,9 @@ function Ccle(props) {
           </a>
         </p>
         <p className="p-txt">
-          The development process involved coding, reviewing, and testing. We were able to maintain a clean
-          and organized codebase with <b>ESLint</b> and <b>Github Actions</b>, as well as thorough code reviews.
+          The development process involved coding, reviewing, and testing (using <b>Jira</b>). We were able to maintain a clean
+          and well-documented codebase with <b>ESLint</b> and <b>Github Actions</b>, as well as thorough code reviews and frequent
+          discussion/collaboration.
         </p>
         <span className="p-txt-small">
           <Link className="back-btn" to="/exp">
