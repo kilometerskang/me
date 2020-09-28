@@ -1,15 +1,16 @@
 import React from "react";
 import ProjectIcon from './ProjectIcon';
  
-function Projects(props) {
+function Experience(props) {
   return (
     <div className="container">
       <div className="content">
         <div className="all-projects">
           <ProjectIcon
-              link="/disappointing_page"
-              image="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Coltrane_Giant_Steps.jpg/220px-Coltrane_Giant_Steps.jpg"
-              title="Some Project"
+              link="/ccle"
+              image="https://pbs.twimg.com/profile_images/1085797622198063106/ed-DCJvt_400x400.jpg"
+              title="SWE Intern"
+              subtitle="Apr. 2020 - Sep. 2020"
               category=""
           />
         </div>
@@ -18,4 +19,4 @@ function Projects(props) {
   )
 }
  
-export default Projects;
+export default Experience;

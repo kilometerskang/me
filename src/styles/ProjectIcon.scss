@@ -11,8 +11,8 @@
 }
 
 .project {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     background-color: $primary-color;
     padding: 18px;
     transition-duration: 0.4s;
@@ -26,7 +26,15 @@
 }
 
 .project-image {
-    padding: 6px;
+    padding: 4px;
+}
+
+.project-title {
+    font-size: 1rem;
+}
+
+.project-subtitle {
+    font-size: 0.8rem;
 }
 
 .project-link {
@@ -40,6 +48,7 @@
     background-color: $primary-color;
     text-decoration: none;
     padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    margin-top: 10px;
     border-radius: 0.6rem;
     transition-duration: 0.4s;
     cursor: pointer;

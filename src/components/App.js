@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import { HashRouter, Route, Link, Redirect, NavLink } from 'react-router-dom';
 import Home from './Home';
-import Projects from './Projects'; 
+import Experience from './Experience'; 
 import Resume from './Resume';
 import Extra from './Extra';
-import DisappointingPage from './DisappointingPage';
+import Ccle from './Ccle';
 import '../styles/nav.scss';
 
 function App() {
@@ -48,17 +48,17 @@ function App() {
         </div>
         <ul className="nav-bar">
           <li><NavLink className="nav-item" activeClassName="active" to="/home">Home</NavLink></li>
-          <li><NavLink className="nav-item" activeClassName="active" to="/projects">Projects</NavLink></li>
+          <li><NavLink className="nav-item" activeClassName="active" to="/exp">Experience</NavLink></li>
           <li><NavLink className="nav-item" activeClassName="active" to="/resume">Resume</NavLink></li>
           <li><NavLink className="nav-item" activeClassName="active" to="/extra">Extra</NavLink></li>
         </ul>
 
         <div>
           <Route path="/home" component={Home} />
-          <Route path="/projects" component={Projects} />
+          <Route path="/exp" component={Experience} />
           <Route path="/resume" component={Resume} />
           <Route path="/extra" component={Extra} />
-          <Route path="/disappointing_page" component={DisappointingPage} />
+          <Route path="/ccle" component={Ccle} />
         </div>
 
         <footer>
