@@ -6,7 +6,7 @@ function Extra() {
     <div className="container">     
       <div className="content">
         <p className="p-txt">
-          My biggest hobby and side gig is music <span role="img" aria-label="guitar">🎸</span>.
+          My biggest hobby and side gig is music <span role="img" aria-label="guitar-emoji">🎸</span>.
           Jamming with friends, exploring jazz theory, and composing pieces are pretty much my
           entire life outside of school. I do my own mixing and mastering, and release my music
           on Spotify, Apple Music, SoundCloud, etc. (link below)
@@ -61,7 +61,7 @@ function Extra() {
         <p className="p-txt">
           I really enjoy the visual arts too. My album arts (above) were drawn by my finger on
           a free mobile drawing app (it was very hard). I have also painted for as long as I can
-          remember, but I am no professional <span role="img" aria-label="funny-face">😬</span>.
+          remember, but I am no professional <span role="img" aria-label="funny-face-emoji">😬</span>.
         </p>
         <ul className="extra-gallery">
         <li className="extra-art">
