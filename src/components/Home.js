@@ -26,6 +26,29 @@ function Projects(props) {
             development, though it is by no means limited to it. This website is intended to explain my activities
             all in one place, and hopefully I will keep it up to date.
         </p>
+        <p className="p-txt">
+          <b>
+            Github: <a
+              className="link"
+              href="https://github.com/kilometerskang"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/kilometerskang
+            </a>
+          </b>
+          <br />
+          <b>
+            LinkedIn: <a
+              className="link"
+              href="https://www.linkedin.com/in/kilometerskang"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://www.linkedin.com/in/kilometerskang
+            </a>
+          </b>
+        </p>
         <p className="p-txt txt-accent">
             <b>Last updated: 11.10.2020.</b>
         </p>
