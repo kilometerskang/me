@@ -16,7 +16,7 @@ function Projects(props) {
         </p>
         <p className="p-txt">
           <b>
-            Javascript (ES6, Node.js, React.js, Express.js, Jest/Enzyme), MongoDB, mySQL, Python, C++, C, PHP, 
+            Python, C++, C, Javascript (ES6, Node.js, React.js, Express.js, Jest/Enzyme), MongoDB, mySQL, PHP, 
             HTML/CSS/SCSS, Git, Docker, Agile, Jira.
           </b>
         </p>
@@ -48,9 +48,6 @@ function Projects(props) {
               https://www.linkedin.com/in/kilometerskang
             </a>
           </b>
-        </p>
-        <p className="p-txt txt-accent">
-            <b>Last updated: 11.10.2020.</b>
         </p>
       </div>
     </div>

@@ -79,7 +79,7 @@ body {
 }
 
 .txt-accent {
-    color: $primary-color-hover;
+    color: $accent-color;
 }
 
 button {
@@ -93,6 +93,6 @@ button:focus {
 }
 
 .link {
-    color: $primary-color-hover;
+    color: $accent-color;
     text-decoration: none;
 }
