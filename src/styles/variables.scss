@@ -1,13 +1,19 @@
 // Define variables.
-$primary-color-light: rgb(105, 139, 233);
-$primary-color: rgb(92, 129, 230);
-$primary-color-hover: rgb(78, 118, 228);
 
-$secondary-color-light: rgb(109, 146, 94);
-$secondary-color: rgb(98, 139, 79);
-$secondary-color-hover: rgb(86, 121, 71);
+// Blue Scheme.
+// $primary-color-light: rgb(105, 139, 233);
+// $primary-color: rgb(92, 129, 230);
+// $primary-color-hover: rgb(78, 118, 228);
 
-$accent-color: rgb(240, 215, 104);
+$primary-color-light: rgb(79, 184, 105);
+$primary-color: rgb(77, 177, 102);
+$primary-color-hover: rgb(74, 165, 97);
+
+$secondary-color-light:rgb(255, 151, 82);
+$secondary-color: rgb(250, 141, 68);
+$secondary-color-hover: rgb(247, 130, 52);
+
+$accent-color: rgb(253, 255, 131);
 
 $base-color: #333;
 $base-color-hover: #222;
