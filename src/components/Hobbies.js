@@ -1,7 +1,7 @@
 import React from "react";
-import '../styles/Extra.scss';
+import '../styles/Hobbies.scss';
  
-function Extra() {
+function Hobbies() {
   return (
     <div className="container">     
       <div className="content">
@@ -151,4 +151,4 @@ function Extra() {
   )
 }
  
-export default Extra;
+export default Hobbies;

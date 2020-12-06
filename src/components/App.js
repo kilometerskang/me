@@ -3,7 +3,7 @@ import { HashRouter, Route, Link, Redirect, NavLink } from 'react-router-dom';
 import Home from './Home';
 import Experience from './Experience'; 
 import Resume from './Resume';
-import Extra from './Extra';
+import Hobbies from './Hobbies';
 import Ccle from './Ccle';
 import '../styles/nav.scss';
 
@@ -50,14 +50,14 @@ function App() {
           <li><NavLink className="nav-item" activeClassName="active" to="/home">Home</NavLink></li>
           <li><NavLink className="nav-item" activeClassName="active" to="/exp">Experience</NavLink></li>
           <li><NavLink className="nav-item" activeClassName="active" to="/resume">Resume</NavLink></li>
-          <li><NavLink className="nav-item" activeClassName="active" to="/extra">Extra</NavLink></li>
+          <li><NavLink className="nav-item" activeClassName="active" to="/hobbies">Hobbies</NavLink></li>
         </ul>
 
         <div>
           <Route path="/home" component={Home} />
           <Route path="/exp" component={Experience} />
           <Route path="/resume" component={Resume} />
-          <Route path="/extra" component={Extra} />
+          <Route path="/hobbies" component={Hobbies} />
           <Route path="/ccle" component={Ccle} />
         </div>
 
