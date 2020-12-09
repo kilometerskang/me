@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
  
-function Ccle(props) {
+function Ccle() {
   return (
     <div className="container"> 
       <div className="content">

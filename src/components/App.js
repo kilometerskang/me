@@ -5,6 +5,8 @@ import Experience from './Experience';
 import Resume from './Resume';
 import Hobbies from './Hobbies';
 import Ccle from './Ccle';
+import TeachLa from './TeachLa';
+import Angular from './Angular';
 import '../styles/nav.scss';
 
 function App() {
@@ -59,6 +61,8 @@ function App() {
           <Route path="/resume" component={Resume} />
           <Route path="/hobbies" component={Hobbies} />
           <Route path="/ccle" component={Ccle} />
+          <Route path="/acm" component={TeachLa} />
+          <Route path="/angular" component={Angular} />
         </div>
 
         <footer>

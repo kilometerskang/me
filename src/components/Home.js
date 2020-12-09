@@ -16,13 +16,13 @@ function Projects(props) {
         </p>
         <p className="p-txt">
           <b>
-            Python, C++, C, Javascript (ES6, Node.js, React.js, Express.js, Jest/Enzyme), MongoDB, mySQL, PHP, 
-            HTML/CSS/SCSS, Git, Docker, Agile, Jira.
+            Python, C++, C, Javascript (ES6, Node.js, React.js, Express.js, Jest/Enzyme), Typescript, Angular,
+            MongoDB, mySQL, PHP, HTML/CSS/SCSS, Git, Docker, Agile, Jira.
           </b>
         </p>
         <p className="p-txt">
             My experience in <b className="txt-accent">software development</b> comes primarily from previous/current
-            employment, coursework, and school organizations. My work so far has been concentrated in web
+            employment, coursework, free time, and school organizations. So far, I have focused quite a bit on web
             development, though it is by no means limited to it. This website is intended to explain my activities
             all in one place, and hopefully I will keep it up to date.
         </p>

@@ -13,6 +13,20 @@ function Experience(props) {
               subtitle="Apr. 2020 - Sep. 2020"
               category=""
           />
+          <ProjectIcon
+              link="/acm"
+              image="https://teachla.uclaacm.com/img/teachLA_wordmark_light.svg"
+              title="Developer"
+              subtitle="Sep. 2020 - Present"
+              category=""
+          />
+          <ProjectIcon
+              link="/angular"
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"
+              title="Personal Project"
+              subtitle="Dec. 2020"
+              category=""
+          />
         </div>
       </div>
     </div>
