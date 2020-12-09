@@ -23,10 +23,10 @@ function Projects(props) {
         <p className="p-txt">
             My experience in <b className="txt-accent">software development</b> comes primarily from previous/current
             employment, coursework, free time, and school organizations. So far, I have focused quite a bit on web
-            development, though it is by no means limited to it. This website is intended to explain my activities
+            development, though I am by no means limited to it. This website is intended to explain my activities
             all in one place, and hopefully I will keep it up to date.
         </p>
-        <p className="p-txt">
+        <p className="p-txt emphasis">
           <b>
             Github: <a
               className="link"

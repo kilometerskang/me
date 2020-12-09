@@ -8,8 +8,9 @@ function Hobbies() {
         <p className="p-txt">
           My biggest hobby and side gig is music <span role="img" aria-label="guitar-emoji">🎸</span>.
           Jamming with friends, exploring jazz theory, and composing pieces are pretty much my
-          entire life outside of school. I do my own mixing and mastering, and release my music
-          on Spotify, Apple Music, SoundCloud, etc. (link below)
+          entire life outside of school. I do my own mixing and mastering and release my music
+          on Spotify, Apple Music, SoundCloud, etc. (link below). I currently have about 12,000
+          monthly listeners.
         </p>
         <ul className="extra-gallery">
           <li className="extra-art">

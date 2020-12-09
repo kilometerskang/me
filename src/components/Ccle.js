@@ -35,17 +35,17 @@ function Ccle() {
             React hooks
           </b> (whose logic I tested using <b>Jest/Enzyme</b>).
         </p>
-        <p className="p-txt">
-          Library Resources Repo: <a
-            className="link"
-            href="https://github.com/ucla/lti-library-resources"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <b>
+        <p className="p-txt emphasis">
+          <b>
+            Library Resources Repo: <a
+              className="link"
+              href="https://github.com/ucla/lti-library-resources"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               https://github.com/ucla/lti-library-resources
-            </b>
-          </a>
+            </a>
+          </b>
         </p>
         <p className="p-txt">
           The development process involved coding, reviewing, and testing (using <b>Jira</b>). We were able to maintain a clean
