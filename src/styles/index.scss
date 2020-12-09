@@ -104,6 +104,12 @@ button:focus {
 .link {
     color: $accent-color;
     text-decoration: none;
+    transition: 0.25s;
+}
+
+.link:hover {
+    background-color: $primary-color-light;
+    transition: 0.25s;
 }
 
 .emphasis {
