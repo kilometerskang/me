@@ -7,6 +7,7 @@ import Hobbies from './Hobbies';
 import Ccle from './Ccle';
 import TeachLa from './TeachLa';
 import Angular from './Angular';
+import RecordPlayer from './RecordPlayer';
 import '../styles/nav.scss';
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
           <Route path="/ccle" component={Ccle} />
           <Route path="/acm" component={TeachLa} />
           <Route path="/angular" component={Angular} />
+          <Route path="/player" component={RecordPlayer} />
         </div>
 
         <footer>

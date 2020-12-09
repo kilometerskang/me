@@ -21,7 +21,7 @@ function TeachLa() {
         </p>
         <p className="p-txt">
           I have focused mainly on creating interactive websites that teach concepts in <b>Machine Learning</b>.
-          This includes a lesson on <b>Mean Squared Error (MSE)</b>, which was coded in HTML/CSS/JavaScript with the
+          This includes a lesson on <b>Mean Squared Error (MSE)</b>, which was coded in HTML/CSS/Javascript with the
           help of Bulma, math.js, anime.js, FunctionPlot (d3.js), mathJAX, and unDraw. These tools were necessary in
           building a user-friendly layout and implementing graphing and animating functionalities.
         </p>

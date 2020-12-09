@@ -23,8 +23,15 @@ function Experience(props) {
           <ProjectIcon
               link="/angular"
               image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"
-              title="Personal Project"
+              title="Angular Project"
               subtitle="Dec. 2020"
+              category=""
+          />
+          <ProjectIcon
+              link="/player"
+              image={require("../screenshots/player-icon.png")}
+              title="WebGL Project"
+              subtitle="Feb. 2020 - Mar. 2020"
               category=""
           />
         </div>
