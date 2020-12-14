@@ -9,9 +9,18 @@ function Hobbies() {
           My biggest hobby and side gig is music <span role="img" aria-label="guitar-emoji">🎸</span>.
           Jamming with friends, exploring jazz theory, and composing pieces are pretty much my
           entire life outside of school. I do my own mixing and mastering and release my music
-          on Spotify, Apple Music, SoundCloud, etc. (link below). I currently have about 12,000
+          on Spotify, Apple Music, SoundCloud, etc. (link below). I currently have about 11,000
           monthly listeners.
         </p>
+        <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:4F5oMQRJEqpLZaW5cc7BEC&size=detail&theme=dark"
+          title="spotify-follow"
+          width="300"
+          height="56"
+          scrolling="no"
+          frameborder="0"
+          style={{border: "none", overflow: "hidden", padding: "5px"}}
+          allowtransparency="true">
+        </iframe>
         <ul className="extra-gallery">
           <li className="extra-art">
             <img
