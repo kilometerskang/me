@@ -68,7 +68,7 @@ function App() {
         </div>
 
         <footer>
-          <p className="p-txt-small">Contact: milesjkang@gmail.com</p>
+          <p className="p-txt-small">Contact: milesjk@g.ucla.com</p>
           <p className="p-txt-small"><a className="link" href="https://github.com/kilometerskang/me">
           Click here for my code for this website.</a></p>
         </footer>
