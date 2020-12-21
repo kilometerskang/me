@@ -21,6 +21,13 @@ function Hobbies() {
           style={{border: "none", overflow: "hidden", padding: "5px"}}
           allowtransparency="true">
         </iframe>
+        <iframe src="https://open.spotify.com/embed/track/1vL2mduX2fyNtywTlNzgb8"
+          width="300"
+          height="80"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media">
+        </iframe>
         <ul className="extra-gallery">
           <li className="extra-art">
             <img
