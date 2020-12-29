@@ -32,7 +32,7 @@ function TeachLa() {
           mode='fit'
         />
         <p className="p-txt">
-          I have also contributed to Teach LA's online code editor, and I am currently in the planning stages of a lesson
+          I have also contributed to Teach LA's online code editor, and I am currently developing a lesson
           on Linear and Logistic Regression, built using <b>React.js</b> and <b>Material UI</b>.
         </p>
         <p className="p-txt emphasis">

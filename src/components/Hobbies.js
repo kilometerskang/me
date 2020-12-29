@@ -22,6 +22,7 @@ function Hobbies() {
           allowtransparency="true">
         </iframe>
         <iframe src="https://open.spotify.com/embed/track/1vL2mduX2fyNtywTlNzgb8"
+          title="spotify-player"
           width="300"
           height="80"
           frameborder="0"
@@ -76,9 +77,8 @@ function Hobbies() {
           </a>
         </div>
         <p className="p-txt">
-          I really enjoy the visual arts too. My album arts (above) were drawn by my finger on
-          a free mobile drawing app (it was very hard). I have also painted for as long as I can
-          remember, but I am no professional <span role="img" aria-label="funny-face-emoji">😬</span>.
+          I really enjoy visual art too. My album arts (above) were drawn by my finger on
+          a free mobile drawing app. Below are some of my paintings.
         </p>
         <ul className="extra-gallery">
         <li className="extra-art">
@@ -87,15 +87,6 @@ function Hobbies() {
               alt=""
               width={170}
               height={170}
-              mode='fit'
-            />
-          </li>
-          <li className="extra-art">
-            <img
-              src={require("../artwork/drawings/bridge.jpg")}
-              alt=""
-              width={138}
-              height={190}
               mode='fit'
             />
           </li>
@@ -114,15 +105,6 @@ function Hobbies() {
               alt=""
               width={185}
               height={145}
-              mode='fit'
-            />
-          </li>
-          <li className="extra-art">
-            <img
-              src={require("../artwork/drawings/plastic.jpg")}
-              alt=""
-              width={138}
-              height={190}
               mode='fit'
             />
           </li>

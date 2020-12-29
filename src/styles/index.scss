@@ -1,4 +1,5 @@
 @import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 .App {
     text-align: center;
@@ -7,7 +8,7 @@
 
 body {
     margin: 0;
-    font-family: "Ebrima", "Tahoma", -apple-system, BlinkMacSystemFont,
+    font-family: "Nunito", "Ebrima", "Tahoma", -apple-system, BlinkMacSystemFont,
         "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans",
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -52,10 +53,10 @@ body {
         width: 87%;
     }
     .p-txt {
-        font-size: 1.1rem;
+        font-size: 1.15rem;
     }
     .p-txt-small {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
     }
     .screenshot {
         width: 76%;
@@ -67,10 +68,10 @@ body {
         width: 93%;
     }
     .p-txt {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
     .p-txt-small {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
     .screenshot {
         width: 82%;
